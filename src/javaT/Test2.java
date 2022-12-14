@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
 public class Test2 {
 	public static void main(String[] args) {
 		String pt = "\\d+\\s+\\d+";

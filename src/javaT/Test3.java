@@ -4,7 +4,8 @@ public class Test3 {
 	public static void main(String[] args) {
 		String qus = "^0100^0200^0300^0400^0500^0600^0700^0800^1800";
 		
-		String test1 = "^0100_1^1800_1^0200_2^"; 
+//		String test1 = "^0100_1^1800_1^0200_2^"; 
+		String test1 = "^0100_1^0200_2^"; 
 		// "^0100_1^0200_1^";
 		// "^"
 		// "^0100_1^1800_1^0200_2"
@@ -20,9 +21,7 @@ public class Test3 {
 		StringBuilder sbTest3 = new StringBuilder(test3);
 		System.out.println("-----------------------------");
 		
-		String case1 = "";
-		String case2 = "";
-		String sb1 = "";
+//		String case1 = "";
 		
 		if(test1.equals("^")) {
 			for(int i=testList3.length+1;i<qusList.length;i++) {
